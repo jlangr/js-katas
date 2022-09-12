@@ -1,4 +1,3 @@
-// Jeffrey J. Langr
 // export const power = (n, exponent) => {
 //   if (exponent === 0) return 1
 //   else if (exponent % 2 === 0)
