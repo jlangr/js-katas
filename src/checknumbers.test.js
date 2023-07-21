@@ -32,4 +32,8 @@ describe('check numbers', () => {
   it('converts 21 to string equivalent', () => {
     expect(checkNumber(21)).toBe('twenty-one')
   })
+
+  it('converts 30 to string equivalent', () => {
+    expect(checkNumber(30)).toBe('thirty')
+  })
 })

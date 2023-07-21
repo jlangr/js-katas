@@ -6,6 +6,8 @@ export const checkNumber = number => {
 
     if (number === 20)
         return "twenty"
+    if (number > 20)
+        return "twenty-" + conversions[number % 20]
 
     return conversions[number]
 }
