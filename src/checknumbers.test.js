@@ -20,4 +20,9 @@ describe('check numbers', () => {
   it('converts 16 to string equivalent', () => {
     expect(checkNumber(16)).toBe('sixteen')
   })
+
+  it('converts 17 to string equivalent', () => {
+    expect(checkNumber(17)).toBe('seventeen')
+  })
+
 })
