@@ -66,9 +66,7 @@ const truncate = encoding => encoding.substr(0, MaxDigits)
 const encodeAll = name => name[0] + encodeDigits(name.substr(1))
 
 export const encode = name => {
-  console.log('name: ', name)
   name = removeDuplicates(name)
-  console.log('removed dups: ', name)
   const encoding = encodeAll(name)
   return encoding.length < MaxDigits ? pad(encoding) : truncate(encoding)
 }
