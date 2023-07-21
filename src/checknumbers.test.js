@@ -34,9 +34,12 @@ describe('check numbers', () => {
   })
 
   it.each([
+    [13, 'thirteen'],
     [30, 'thirty'],
     [100, 'one hundred'],
     [101, 'one hundred one'],
+    [113, 'one hundred thirteen'],
+    [123, 'one hundred twenty-three']
   ])('converts %p expecting %p', (number, result) => {
     expect(checkNumber(number)).toBe(result)
   });
