@@ -16,4 +16,8 @@ describe('check numbers', () => {
   it('converts 10 to string equivalent', () => {
     expect(checkNumber(10)).toBe('ten')
   })
+
+  it('converts 16 to string equivalent', () => {
+    expect(checkNumber(16)).toBe('sixteen')
+  })
 })
